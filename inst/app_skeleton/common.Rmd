@@ -1,0 +1,6 @@
+```{r renv.ignore = TRUE}
+  common_class <- R6::R6Class(
+    classname = "common",
+    public = {{common_objects}}
+  )
+```
