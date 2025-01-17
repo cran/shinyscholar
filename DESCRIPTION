@@ -1,6 +1,5 @@
 Package: shinyscholar
-Version: 0.2.2
-Date: 2025-01-14
+Version: 0.2.3
 Title: A Template for Creating Reproducible 'shiny' Applications
 Description: Create a skeleton 'shiny' application with create_template() that is
     reproducible, can be saved and meets academic standards for attribution.
@@ -12,7 +11,8 @@ Description: Create a skeleton 'shiny' application with create_template() that i
     practices in open science and software development. Includes functions for
     automating repetitive development tasks and an example application at
     run_shinyscholar() that requires
-    install.packages("shinyscholar", dependencies = TRUE).
+    install.packages("shinyscholar", dependencies = TRUE). A guide to developing
+    applications can be found on the package website.
 Authors@R: 
     c(person("Simon E. H.", "Smart", email = "simon.smart@cantab.net", role = c("aut", "cre", "cph")),
       person("Tim", "Lucas", email =  "timcdlucas@gmail.com", role = c("aut"), comment = c(ORCID = "0000-0003-4694-8107")),
@@ -41,13 +41,15 @@ Suggests: bslib, DT (>= 0.5), dplyr (>= 1.0.2), future, httr2,
         R6, RColorBrewer, renv, rintrojs, rmarkdown, shinyAce,
         shinyalert, shinybusy, shinyjs, shinytest2, shinyWidgets (>=
         0.6.0), terra, testthat, xml2
+SystemRequirements: pandoc is required for generating reproducible
+        reports
 License: GPL-3
 URL: https://simon-smart88.github.io/shinyscholar/
 BugReports: https://github.com/simon-smart88/shinyscholar/issues
 Encoding: UTF-8
 RoxygenNote: 7.3.2
 NeedsCompilation: no
-Packaged: 2025-01-14 15:29:15 UTC; simon
+Packaged: 2025-01-17 09:35:14 UTC; simon
 Author: Simon E. H. Smart [aut, cre, cph],
   Tim Lucas [aut] (<https://orcid.org/0000-0003-4694-8107>),
   Jamie M. Kass [ctb],
@@ -70,4 +72,4 @@ Author: Simon E. H. Smart [aut, cre, cph],
   Robert Muscarella [ctb]
 Maintainer: Simon E. H. Smart <simon.smart@cantab.net>
 Repository: CRAN
-Date/Publication: 2025-01-15 18:30:02 UTC
+Date/Publication: 2025-01-17 13:20:01 UTC

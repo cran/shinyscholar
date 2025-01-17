@@ -1,8 +1,8 @@
-4533931290a7e4b226fc51bc5bdf12ff *DESCRIPTION
+75b46570bcfbff9fd8728f711772bced *DESCRIPTION
 bb916df839bb3cc792abe656518c626f *NAMESPACE
-7ed1a28e8d31c3a99d2bbf77a0ba70ca *NEWS.md
+55997c51d2cbe1f9bbe35c4e807c6f21 *NEWS.md
 a7ac6964f8a00a39c43274cc78403e45 *R/check_suggests.R
-2167e3a3692b782c7a735e77d0f5bfc4 *R/create_template.R
+e24116eaa4a67d02f6660feecc8bdfbf *R/create_template.R
 fed94f59d026bfbc5b0d87063f7428f2 *R/custom_modules.R
 f35e3313e90d3d4849b1495f0ccb9b94 *R/helper_functions.R
 84d1bd0775cc13bc6cf5bb4ac07c473b *R/metadata.R
@@ -14,11 +14,11 @@ f5771ddf2d060625dad09f546e4384bb *R/select_async_f.R
 f23916ba429f2fa099c81f98a55c08c1 *R/select_query_f.R
 66aca0b23cdc2d1d0dbbf4eaba91f7db *R/select_user_f.R
 ec737951993f3919d5ac8f95ba4150d6 *R/shinyscholar-package.R
-db422a32bafca801d4e35731f5268d4b *README.md
+8ba8403d4c7ccd11ae8c7f8cb90110c3 *README.md
 e171c311ef71cc029f673d9cf62558ef *inst/app_skeleton/DESCRIPTION
 3979f868f0c3258bde7bdc186d275edf *inst/app_skeleton/code.Rmd
 068e228b862509a6fa3faba8e5c2045e *inst/app_skeleton/common.Rmd
-fb76059e49b5b5687374af3ab5a89d07 *inst/app_skeleton/global.Rmd
+4e0cedaad21b44a42ea4c19741e94563 *inst/app_skeleton/global.Rmd
 85e24271552a22faa373b8163c8bdc7a *inst/app_skeleton/gtext.Rmd
 5ab5f0b03ffdcbabb3a04dcadf9b8474 *inst/app_skeleton/helper_functions.R
 d7f983799a9a8eb064cfebf9dc44149e *inst/app_skeleton/intro.Rmd
@@ -44,10 +44,10 @@ e827c06cbe62f1f81a61600efcb473ac *inst/shiny/Rmd/gtext_select.Rmd
 f7533c1389c7bbff52d292bb344e391f *inst/shiny/Rmd/references.Rmd
 eb8245b7e34f19b297df90eaf474d428 *inst/shiny/Rmd/text_about.Rmd
 0e90510c7d22af9d1fbd09b350e757f6 *inst/shiny/Rmd/text_how_to_use.Rmd
-41612f9749033f03402315b0beff02ea *inst/shiny/Rmd/text_intro_tab.Rmd
+ba486126f1cde846abbf1ef3a3e21806 *inst/shiny/Rmd/text_intro_tab.Rmd
 2d1fddd714d4858dc54f1d3420c8e3f8 *inst/shiny/Rmd/text_loadsesh.Rmd
 8866127c89db492cc221722c211adfe2 *inst/shiny/Rmd/text_team.Rmd
-1e3eda1995ac9b990b807a155ae7eb7d *inst/shiny/Rmd/userReport_intro.Rmd
+e10a509eb3fc5f0d85f6e6af90252c75 *inst/shiny/Rmd/userReport_intro.Rmd
 3792021e737ad1f2e19c343ef983c59a *inst/shiny/Rmd/userReport_module.Rmd
 b2cf508d477258d6b60c8c1485d63d57 *inst/shiny/common.R
 81371a1a1ef62fba51e5fa564f84ec5f *inst/shiny/global.R
@@ -132,7 +132,7 @@ b662173b692e3c2df4f1af9542376bef *tests/testthat/helper_select_async.R
 c24561f24c8df21a2163251ffb69ef11 *tests/testthat/helper_select_user.R
 45a80216ccf59918c4d3e5631bb4b37c *tests/testthat/test-check_suggests.R
 9c6a4d7768d891a1e71f7e27c15d38e0 *tests/testthat/test-create_template.R
-f7cf71dde451d739cd22335c3f3b9b91 *tests/testthat/test-downloads.R
+afd595e1f87da3eff9127c904bd5f829 *tests/testthat/test-downloads.R
 bd934c8d673654ca81610d0d7d074de4 *tests/testthat/test-helpers.R
 3be68d7b62ba7fa8c21de0b37c3783df *tests/testthat/test-metadata.R
 c88d4a8fee6bc0805f08053645875e71 *tests/testthat/test-plot_hist.R
@@ -142,4 +142,3 @@ bb82a78a77816437025f6f848e54f33c *tests/testthat/test-save_load.R
 55b2372bd8ea87dda98336697421187d *tests/testthat/test-select_async.R
 30c1df6c079597a2b319e76aa144621f *tests/testthat/test-select_query.R
 48910bb35e5835306f05d5bad7649f5f *tests/testthat/test-select_user.R
-eb64c87cbf0e368ed687177c06bd34b2 *tools/process_vignette.R
